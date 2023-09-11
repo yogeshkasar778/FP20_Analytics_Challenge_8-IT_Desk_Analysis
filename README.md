@@ -39,20 +39,22 @@ to 31/12/2020.
 The Dataset used for this challenge was presented by [FP20 Challenges](https://fp20analytics.com/challenges) and Diversity and Inclusion dataset:
 
 Dataset: 
- - [Tickets Table](https://github.com/yogeshkasar778/PWC_task3-Diversity_and_Inclusion_dashboard/blob/main/03%20Diversity-Inclusion-Dataset.xlsx)
- - [ IT Agents Table](https://github.com/yogeshkasar778/PWC_task3-Diversity_and_Inclusion_dashboard/blob/main/03%20Diversity-Inclusion-Dataset.xlsx)
+ - [IT Tickets and Agents Table](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/blob/main/IT%20Tickets%20Analysis.xlsx)
 
-## Data Gathering and Integration:
-We need to create a mechanism to load all the files from the sales folder into a single Sales fact table. The mechanism should be resilient, meaning it should not cause errors when files are removed from the sales folder or when new yearly sales files are added. The fact table should be automatically updated when new data is added.
+## Data Preparation:
+Completed the Data transformation in Power Query and the dataset was loaded into Microsoft Power BI Desktop for modeling.
+
+IT Tickets and Agents dataset is given table named:
+
+- `IT Tickets ` which has `97499 rows and 10 Column` of observation.
+- `IT Tickets ` which has `50 rows and 8 Column` of observation.
+
 
 ## Data Modelling:
-  ### :black_small_square: Transformations and Data Type Setting:
+Then dataset was cleaned and transformed, it was ready for data modeled.
 
-  ### :black_small_square: Creating Unique Keys:
-    
-  ### :black_small_square: Cleaning ID Columns:
-    
-  ### :black_small_square: Data Model Creation:
+- The `IT Tickets and Agents` tables as shown below:
+
 We will create the data model connecting all tables and utilize the Calendar table that has already been set up.
 
 ## Data Analysis Expression (DAX) Calculation :
