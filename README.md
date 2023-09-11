@@ -46,8 +46,8 @@ Completed the Data transformation in Power Query and the dataset was loaded into
 
 IT Tickets and Agents dataset is given table named:
 
-- `IT Tickets ` which has `97499 rows and 10 Column` of observation.
-- `IT Tickets ` which has `50 rows and 8 Column` of observation.
+- `IT Tickets` which has `97499 rows and 10 Column` of observation.
+- `IT Agents` which has `50 rows and 8 Column` of observation.
 
 
 ## Data Modelling:
