@@ -1,5 +1,7 @@
 # :ticket: FP20 Analytics Challenge 8-IT Help Desk Analysis
 
+![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/4643fa9c-9025-40df-9ffc-af36e8981c31)
+
 ## Table of Contents :
 
 - [Problem Statement](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#problem-statement-)
@@ -9,7 +11,7 @@
 - [Data Analysis Expression (DAX) Calculation ](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#data-analysis-expression-dax-calculation-)
 - [Report](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#bar_chart-report)
 - [Dashboard](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#bar_chart-dashboard)
-- [Tools, Software](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#tools-software-)
+- [Tools, Software]()
 
 ## :dart: Problem Statement :
 
@@ -49,7 +51,6 @@ IT Tickets and Agents dataset is given table named:
 - `IT Tickets` which has `97499 rows and 10 Column` of observation.
 - `IT Agents` which has `50 rows and 8 Column` of observation.
 
-
 ## Data Modelling:
 Then dataset was cleaned and transformed, it was ready for data modeled.
 
@@ -57,15 +58,40 @@ Then dataset was cleaned and transformed, it was ready for data modeled.
 
 We will create the data model connecting all tables and utilize the Calendar table that has already been set up.
 
+![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/e2f9a5b0-7052-4ce9-84c4-eb79695c9290)
+
 ## Data Analysis Expression (DAX) Calculation :
 Measures used in visualization are:
 
+  - `Total Agents = COUNT(IT_Agents[Agent ID])`
+  - `Total Ticket = COUNT(Tickets1[ID Ticket])`
+  - `Avg. Agent Age = AVERAGE(IT_Agents[Age])`
+  - `Avg. Resolution Time = AVERAGE(Tickets1[Resolution Time (Days)])`
+  - `Avg. Satisfaction Rate = AVERAGE(Tickets1[Satisfaction Rate])`
+  - `Issue type IT Error = CALCULATE(COUNT(Tickets1[ID Ticket]),Tickets1[Issue Type]="IT Error")`
+  - `Issue type IT Request = CALCULATE(COUNT(Tickets1[ID Ticket]),Tickets1[Issue Type]="IT Request")`
+  - `Outside SLA = CALCULATE(COUNT(Tickets1[ID Ticket]),Tickets1[Resolution]="Outside SLA")`
+  - `Within SLA = CALCULATE(COUNT(Tickets1[ID Ticket]),Tickets1[Resolution]="Within SLA")`
+  - `Resolution Issue type IT Error = CALCULATE(COUNT(Tickets1[Resolution Time (Days)]),Tickets1[Issue Type]="IT Error")`
+  - `Resolution Issue type IT Request = CALCULATE(COUNT(Tickets1[Resolution Time (Days)]),Tickets1[Issue Type]="IT Request")`
 
+Date Calculation:
+
+  - `DateMaster = CALENDAR(FIRSTDATE(Tickets1[Date]),LASTDATE(Tickets1[Date]))`
+  - `Month = MONTH(DateMaster[Date])`
+  - `Year = YEAR(DateMaster[Date])`
+  - `Month Name = FORMAT(DateMaster[Date],"MMM")`
+  - `Month Order = DateMaster[Date].[MonthNo]`
+  - `Quertor = QUARTER(DateMaster[Date])`
+  - `Week Day = WEEKDAY(DateMaster[Date])`
+  - `Week Day Name = FORMAT(DateMaster[Date],"DDD")`
+  - `Year = YEAR(DateMaster[Date])`
 
 ## :chart_with_upwards_trend: Report:
 Data visualization for the dataset was done using Microsoft Power BI Desktop:
 
-View Report -
+View Report -[Report](https://app.powerbi.com/links/NZvsjlKN3L?ctid=b9cd496c-35ed-4f56-9942-e91f9a3d8d48&pbi_source=linkShare)
+
 ## :bar_chart: Dashboard:
 Using the measures and calculations, we will design a one-page sales dashboard with various visuals, including charts, graphs, and geo maps. The dashboard will represent sales insights and trends, making it easy to comprehend and facilitate data-driven decision-making.
 
