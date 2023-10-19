@@ -102,7 +102,6 @@ View Report - [Report](https://app.powerbi.com/links/NZvsjlKN3L?ctid=b9cd496c-35
 
 ## :bar_chart: Dashboard:
 
-View Dashboard - 
 
 |    Dashboard    |
 | --------------- |
