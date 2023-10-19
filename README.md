@@ -4,14 +4,14 @@
 
 ## Table of Contents :
 
-- [Problem Statement](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#problem-statement-)
-- [Data Gathering / Requirement](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#data-gathering--requirement)
-- [Data Gathering and Integration](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#data-gathering-and-integration)
-- [Data Modelling](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#data-modelling)
-- [Data Analysis Expression (DAX) Calculation ](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#data-analysis-expression-dax-calculation-)
-- [Report](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#bar_chart-report)
-- [Dashboard](https://github.com/yogeshkasar778/Denis-Retail_sales_report_and_dashboard#bar_chart-dashboard)
-- [Tools, Software]()
+- [Problem Statement](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#dart-problem-statement-)
+- [Data Gathering / Requirement](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#data-gathering--requirement)
+- [Data Perparation](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#data-preparation)
+- [Data Modelling](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#data-modelling)
+- [Data Analysis Expression (DAX) Calculation ](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#data-analysis-expression-dax-calculation-)
+- [Report](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#chart_with_upwards_trend-report)
+- [Dashboard](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#bar_chart-dashboard)
+- [Tools, Software](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/edit/main/README.md#tools-software-)
 
 ## :dart: Problem Statement :
 
@@ -90,13 +90,25 @@ Date Calculation:
 ## :chart_with_upwards_trend: Report:
 Data visualization for the dataset was done using Microsoft Power BI Desktop:
 
-View Report -[Report](https://app.powerbi.com/links/NZvsjlKN3L?ctid=b9cd496c-35ed-4f56-9942-e91f9a3d8d48&pbi_source=linkShare)
+View Report - [Report](https://app.powerbi.com/links/NZvsjlKN3L?ctid=b9cd496c-35ed-4f56-9942-e91f9a3d8d48&pbi_source=linkShare)
+
+|    Tickets      |
+| --------------- |
+|![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/0fde3909-3319-44c2-b80b-c7205478020c)|
+
+|    Agents      |
+| --------------- |
+|![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/7cf79a5f-d207-4d02-8146-f56287b7835a)|
 
 ## :bar_chart: Dashboard:
-Using the measures and calculations, we will design a one-page sales dashboard with various visuals, including charts, graphs, and geo maps. The dashboard will represent sales insights and trends, making it easy to comprehend and facilitate data-driven decision-making.
 
 View Dashboard - 
 
+|    Dashboard    |
+| --------------- |
+|![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/6a307403-44d4-48b4-aff9-432531bfb714)
+![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/ef55057a-ac31-42a3-a4e6-925a7ef0e111)
+![image](https://github.com/yogeshkasar778/FP20_Analytics_Challenge_8-IT_Help_Desk_Analysis/assets/118357991/5e1f4fd5-6754-4b4b-bdd6-347ecbd85b31)|
 
 
 ## Tools, Software :
@@ -109,8 +121,10 @@ View Dashboard -
 
 4. Power BI Desktop
 
-5. Power Gateway
+5. Power BI Dashboard
+   
+6. DAX
 
-6. Excel
+7. Excel
 
 ***
